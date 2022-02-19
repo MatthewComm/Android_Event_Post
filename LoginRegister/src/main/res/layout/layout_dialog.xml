@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtRegisterNewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a username" />
+
+    <EditText
+        android:id="@+id/edtRegisterNewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtRegisterNewUsername"
+        android:layout_alignParentStart="true"
+        android:hint="Enter your name"/>
+
+    <EditText
+        android:id="@+id/edtRegisterSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtRegisterNewName"
+        android:layout_alignParentStart="true"
+        android:hint="Enter your surname"/>
+
+    <EditText
+        android:id="@+id/edtRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtRegisterSurname"
+        android:layout_alignParentStart="true"
+        android:hint="Enter a password"
+        android:inputType="textPassword" />
+
+</RelativeLayout>

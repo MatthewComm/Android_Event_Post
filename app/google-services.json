@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "203745517500",
+    "project_id": "ayig-connect-app",
+    "storage_bucket": "ayig-connect-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203745517500:android:0b5da9078b87557bfd95b9",
+        "android_client_info": {
+          "package_name": "com.example.ayigconnectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203745517500-8tu9o3tjbmfng0p005ac18r3r1cp594m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHHEpUsh5gJZWBx8UIv1JcP0mWnlqSS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203745517500-8tu9o3tjbmfng0p005ac18r3r1cp594m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
